@@ -1,0 +1,428 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>knowMore</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="/images/demofavicon.png" />
+
+    <noscript><link rel="stylesheet" href="css/fontawesome-all.min.css" /></noscript>
+
+    <!-- animation effect style -->
+    <style>
+        /* * {
+        margin: 0;
+        padding: 0;
+    } */
+        
+        ul1 li1 {
+            position: absolute;
+            border: 1px solid gold;
+            width: 30px;
+            height: 30px;
+            list-style: none;
+            /* opacity: 1; */
+            opacity: 0;
+            background: gold
+        }
+        
+        .square1 li1 {
+            top: 50vh;
+            left: 45vw;
+            animation: square1 10s linear infinite;
+        }
+        
+        @keyframes square1 {
+            /* 0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(5) rotate(1000deg);
+        opacity: 1;
+    } */
+            0% {
+                transform: scale(0) rotateY(0deg);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(5) rotateY(1000deg);
+                opacity: 1;
+            }
+        }
+        
+        .square1 li1:nth-child(2) {
+            top: 80vh;
+            left: 10vw;
+            animation-delay: 2s;
+        }
+        
+        .square1 li1:nth-child(3) {
+            top: 80vh;
+            left: 85vw;
+            animation-delay: 4s;
+        }
+        
+        .square1 li1:nth-child(4) {
+            top: 10vh;
+            left: 70vw;
+            animation-delay: 6s;
+        }
+        
+        .square1 li1:nth-child(5) {
+            top: 10vh;
+            left: 10vw;
+            animation-delay: 8s;
+        }
+        
+        .square1 li1:nth-child(6) {
+            top: 120vh;
+            left: 45vw;
+            animation-delay: 2s;
+        }
+        
+        .square1 li1:nth-child(7) {
+            top: 170vh;
+            left: 10vw;
+            animation-delay: 12s;
+        }
+        
+        .square1 li1:nth-child(8) {
+            top: 180vh;
+            left: 85vw;
+            animation-delay: 14s;
+        }
+        /* footer */
+        
+        .square1 li1:nth-child(9) {
+            top: 400vh;
+            left: 10vw;
+            animation-delay: 1s;
+        }
+        
+        .square1 li1:nth-child(10) {
+            top: 350vh;
+            left: 50vw;
+            animation-delay: 4s;
+        }
+        
+        .square1 li1:nth-child(11) {
+            top: 400vh;
+            left: 85vw;
+            animation-delay: 2s;
+        }
+        
+        .circle1 li1 {
+            bottom: 0vh;
+            left: 15vw;
+            animation: circle1 10s linear infinite;
+        }
+        
+        @keyframes circle1 {
+            0% {
+                transform: scale(0) rotate(0deg);
+                opacity: 1;
+                bottom: 0;
+                border-radius: 50%;
+            }
+            100% {
+                transform: scale(5) rotate(1000deg);
+                opacity: 0;
+                bottom: 90vh;
+                border-radius: 50%;
+            }
+        }
+        
+        .circle1 li1:nth-child(2) {
+            left: 35vw;
+            animation-delay: 2s;
+        }
+        
+        .circle1 li1:nth-child(3) {
+            left: 55vw;
+            animation-delay: 4s;
+        }
+        
+        .circle1 li1:nth-child(4) {
+            left: 75vw;
+            animation-delay: 6s;
+        }
+        
+        .circle1 li1:nth-child(5) {
+            left: 90vw;
+            animation-delay: 8s;
+        }
+        
+        .circle1 li1:nth-child(6) {
+            left: 45vw;
+            animation-delay: 10s;
+        }
+        
+        .circle1 li1:nth-child(7) {
+            left: 10vw;
+            animation-delay: 5s;
+        }
+        
+        .circle1 li1:nth-child(8) {
+            left: 85vw;
+            animation-delay: 3s;
+        }
+        
+        .circle1 li1:nth-child(9) {
+            left: 45vw;
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+
+        <!-- One -->
+        <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+            <div class="content">
+                <h1>Professional Web Development</h1>
+                <p class="major">A world-class web design company that’s right down the street We don’t make this statement lightly, but the fact is we have handpicked the area's best designers, developers, branding and web marketing experts. The result: top notch, professional
+                    websites that look great and work even better.</p>
+
+                <!-- <ul class="actions stacked">
+                    <li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+                </ul> -->
+
+            </div>
+            <div class="image">
+                <img src="images/banna3.png" alt="" />
+            </div>
+
+        </section>
+
+        <!-- Two -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+            <div class="content">
+                <h2>Websites of Any Size & Scope</h2>
+                <p>
+                    From simple micro-sites to powerful enterprise, we can do it all. A website can serve many purposes. We create custom solutions designed to solve problems and fulfill needs, and we’re proud to say that we’ve developed web solutions for sole proprietorships
+                    to Fortune 500 companies.
+                </p>
+
+                <!-- <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul> -->
+
+            </div>
+            <div class="image">
+                <img src="images/banna.jpg" alt="" />
+            </div>
+        </section>
+
+        <!-- Three -->
+        <div class="background">
+            <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+                <div class="content">
+                    <h2>Full-Custom Website Design</h2>
+                    <p>We create websites that convert visitors to clients. A great website starts with understanding your brand message, value proposition and core competencies. Once we understand those fundamentals, we can create a website that tells your
+                        story in a way that appeals to your targeted audience.</p>
+
+                    <!-- <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul> -->
+
+                </div>
+                <div class="image">
+                    <img src="images/banna1.jpg" alt="" />
+                </div>
+            </section>
+        </div>
+
+        <!-- Four -->
+        <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+            <div class="content">
+                <h2>Responsive Web Design</h2>
+                <p>We make websites that work well on all devices. People are using devices from smartphones to large screen TVs to access your website. You need a website that will look great and function properly on all modern browsers, screen sizes and
+                    resolutions.
+                </p>
+
+                <!-- <ul class="actions stacked">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul> -->
+
+            </div>
+            <div class="image">
+                <img src="images/banna7.png" alt="" />
+            </div>
+        </section>
+
+        <!-- Five -->
+        <div class="background">
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>Future-Friendly Websites</h2>
+                    <p>Our powerful websites can grow as your business does. Your business is dynamic and so is the web. You need a website that can evolve at the same pace as your business, and one that doesn’t look dated in just a couple of years. That’s
+                        the only kind of website that we make.</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>Feature-Rich Websites</h2>
+                <p>All the functionality that your website needs Your website needs more than just a pretty face. It needs serious software under the hood to achieve your business goals. From standard website features, like Content Management (CMS), to rock-solid
+                    custom solutions, we have the tools. Check Out Our Website Features.
+                </p>
+            </div>
+        </section>
+        <style>
+            .background {
+                background-color: black;
+                color: white;
+            }
+        </style>
+        <div class="background">
+            <section class="wrapper style1 align-center">
+                <div class="inner">
+                    <h2>All Supporting Services</h2>
+                    <p>Everything You Need To Succeed On The Web We provide all the services needed to create and enhance the best, most effective website. Let our video, photography, graphics and copywriting experts create custom assets that deliver your
+                        message in style. Check Out Our Supporting Services.</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="wrapper style1 align-center">
+            <div class="inner">
+                <h2>Professional Needs Assessment</h2>
+                <p>We’ll work WITH you for the perfect website. We wouldn’t dream of starting on your website without having a clear understanding of your goals. You are looking for experts, not order-takers. We’ll walk you through our proven web design
+                    process and develop a plan for success, advising you at every step. See our Process
+                </p>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <footer class="wrapper style1 align-center">
+
+                <div class="inner">
+                    <ul class="icons">
+
+
+
+                        <li>
+                            <a href="https://wa.me/+234703823110" class="icon brands style2 fa fa-whatsapp">
+
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://twitter.com/odemokingo" " class="icon brands style2 fa-twitter "><span class="label ">Twitter</span></a></li>
+                    <li><a href="https://web.facebook.com/demoictworld/?ref=pages_you_manage " class="icon brands style2 fa-facebook-f "><span class="label ">Facebook</span></a></li>
+
+                    <li><a href="https://dribbble.com/demowebdeveloper " class="icon brands style2 fa fa-dribbble "></i></a></li>
+
+                    <li><a href="www .instagram.com/demowebsitedeveloper " class="icon brands style2 fa-instagram "><span class="label ">Instagram</span></a></li>
+                    <li><a href="# " class="icon brands style2 fa-linkedin-in "><span class="label ">LinkedIn</span></a></li>
+                    <li><a href="mailto:demoictworld@gmail?subject=subject&cc=cc@example.com " class="icon style2 fa-envelope "><span class="label ">Email</span></a></li>
+
+
+                    <!-- <li>
+                        <a href="tel:+234703823110 " class="icon brands style2 fa fa-phone "><span class="label ">Call</span>
+                        </a>
+                    </li>
+
+                    <li><a href="https://www.google.com/maps/place/Demo+Website+Developer/@6.2003095,6.6965792,21z/data=!4m12!1m6!3m5!1s0x1043f376df2fe777:0xeb4278f90bf85d9e!2sDemo+Website+Developer!8m2!3d6.2003228!4d6.6965738!3m4!1s0x1043f376df2fe777:0xeb4278f90bf85d9e!8m2!3d6.2003228!4d6.6965738 "
+                        class="icon style2 fa fa-location-arrow "><span class="label ">Location</span></a></li> -->
+
+                </ul>
+                <p>&copy; Demo ICT: <a href="/index.html ">Designed by Demo Developer</a>.</p>
+            </div>
+         
+    </footer>
+</div>
+    <!-- Animiation section -->
+
+    <div class="square1 ">
+        <ul1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+        </ul1>
+    </div>
+
+    <div class="circle1 ">
+        <ul1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+            <li1></li1>
+        </ul1>
+    </div>
+
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?82535';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+    "enabled ":true,
+    "chatButtonSetting ":{
+    "backgroundColor ":"#4dc247 ",
+    "ctaText ":" ",
+    "borderRadius ":"25 ",
+    "marginLeft ":"0 ",
+    "marginBottom ":"50 ",
+    "marginRight ":"50 ",
+    "position ":"right "
+      },
+    "brandSetting ":{
+    "brandName ":"WATI ",
+    "brandSubTitle ":"Typically replies within a day ",
+    "brandImg ":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png ",
+    "welcomeText ":"Hi there!\nHow can I help you? ",
+    "messageText ":"Hello, I have a question about {{page_link}} ",
+    "backgroundColor ":"#c9ab00 ",
+    "ctaText ":"Start Chat ",
+    "borderRadius ":"25 ",
+    "autoShow ":true,
+    "phoneNumber ":"2347038231108 "
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery.scrollex.min.js "></script>
+    <script src="js/jquery.scrolly.min.js "></script>
+    <script src="js/browser.min.js "></script>
+    <script src="js/breakpoints.min.js "></script>
+    <script src="js/util.js "></script>
+    <script src="js/main.js "></script>
+
+</body>
+
+</html>
